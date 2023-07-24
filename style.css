@@ -522,3 +522,28 @@ button:focus {
     height: inherit;
     width: 50%;
 }
+@media screen and (max-width : 600px) {
+    .timeline {
+        position: relative;
+        width: 85%;
+    }
+    
+    
+    .timeline-box:nth-child(2n+1)::after {
+        left : -9%;
+    }
+    
+    
+    .timeline-box{
+        left : 5% !important ;
+        width: 100% !important ;
+    }
+
+    #timeline-divider{
+        left : -2.5%;
+    }
+    #my-details-container{
+        width: 55%;
+    }
+    
+}
